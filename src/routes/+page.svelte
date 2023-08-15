@@ -2,6 +2,7 @@
 	import Bio from '$lib/components/bio.svelte';
 	import profile from '$lib/images/profile.jpg';
 	import Section from '$lib/components/section.svelte';
+	import Contact from '$lib/components/contact.svelte';
 </script>
 
 <svelte:head>
@@ -17,12 +18,64 @@
 			name="Grzegorz Patyk"
 			jobTitle="Frontend Developer"
 		/>
+		<Contact
+			location="Cracow, PL"
+			email="grzegorzxpatyk@gmail.com"
+			githubUsername="grzegorzxpatyk"
+			githubLink="https://github.com/grzegorzxpatyk"
+			linkedINName="Grzegorz Patyk"
+			linkedINLink="https://www.linkedin.com/in/grzegorz-patyk"
+		/>
 	</div>
 	<div class="col-span-3 ml-6 p-6">
 		<Section
 			title="Profile"
 			type="description"
 			description="Creative Front End Developer with more than two year experience in software development industry. Trained architect, self-taught software developer. Bringing my problem solving and analytical thinking skills from architecture into web development. Passionate about design, architecture, snowboarding and dogs."
+		/>
+		<Section
+			title="Experience"
+			type="list"
+			listItems={[
+				{
+					title: 'Junior Frontend Developer',
+					organisation: 'TTMS',
+					timePeriod: 'Jun 2022 - Present',
+					description:
+						'Working on multiple projects, using JavaScript / TypeScript, React, Redux, & CSS / SASS. Effective implementation of User Interfaces using react-bootstrap, material-ui and styled-components. Taking part in meetings with clients, discussing their needs and explaining possible solutions.'
+				},
+				{
+					title: 'Junior Frontend Developer',
+					organisation: 'ALTEN Polska',
+					timePeriod: 'Jan 2022 - May 2022',
+					description:
+						'Development of the internal applications using PHP, jQuery, JavaScript and SASS. Implementation of client-side form validation, with the use of js and regular expressions. Testing API with Swagger and Postman.'
+				},
+				{
+					title: 'Wep development internship',
+					organisation: 'beeanco',
+					timePeriod: 'Jun 2021 - Dec 2021',
+					description:
+						'Implementation of new Svelte components of the web application, improvement of existing components. Standardization of the output to a responsive, mobile-first approach using SASS. Working on the verge of back-end and front-end with WordPress as headless CMS. Effective translation of UI designs to code implementations.'
+				}
+			]}
+		/>
+		<Section
+			title="Education"
+			type="list"
+			listItems={[
+				{
+					title: 'Architecture and urban planning MSc',
+					organisation: 'Cracow University of Technology',
+					timePeriod: 'Feb 2019 - Sep 2020'
+				},
+				{
+					title: 'Architecture and urban planning BSc',
+					organisation: 'Lublin University of Technology',
+					timePeriod: 'Oct 2015 - Jan 2019'
+				}
+			]}
+			isLast={true}
 		/>
 	</div>
 </div>
