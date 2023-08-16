@@ -11,7 +11,7 @@
 	<meta name="description" content="Grzegorz Patyk's Resume" />
 </svelte:head>
 
-<div class="border rounded p-5 text-zinc-950 dark:text-zinc-300 grid grid-cols-4">
+<div class="border rounded p-5 text-zinc-950 dark:text-zinc-300 grid grid-cols-4 print:border-0">
 	<div class="border-r border-zinc-800 dark:border-zinc-400 p-6 pr-12">
 		<Bio
 			{profile}
