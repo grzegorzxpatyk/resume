@@ -3,6 +3,7 @@
 	import profile from '$lib/images/profile.jpg';
 	import Section from '$lib/components/section.svelte';
 	import Contact from '$lib/components/contact.svelte';
+	import Technologies from '$lib/components/technologies.svelte';
 </script>
 
 <svelte:head>
@@ -25,6 +26,19 @@
 			githubLink="https://github.com/grzegorzxpatyk"
 			linkedINName="Grzegorz Patyk"
 			linkedINLink="https://www.linkedin.com/in/grzegorz-patyk"
+		/>
+		<Technologies
+			technologies={[
+				'TypeScript',
+				'JavaScript',
+				'HTML',
+				'CSS',
+				'React.js',
+				'Next.js',
+				'Svelte',
+				'SvelteKit',
+				'Redux'
+			]}
 		/>
 	</div>
 	<div class="col-span-3 ml-6 p-6">
