@@ -17,13 +17,13 @@
             <Home class="mr-2" />{location}
         </li>
 		<li class="flex flex-row justify-start items-center">
-			<EnvelopeClosed class="mr-2" /> {email}
+			<EnvelopeClosed class="mr-2" /> <a href="mailto:{email}">{email}</a>
 		</li>
 		<li class="flex flex-row justify-start items-center">
-			<GithubLogo class="mr-2" /><a href={githubLink}>{githubUsername}</a>
+			<GithubLogo class="mr-2" /><a href={githubLink} target="_blank">{githubUsername}</a>
 		</li>
         <li class="flex flex-row justify-start items-center">
-            <LinkedinLogo class="mr-2" /><a href={linkedINLink}>{linkedINName}</a>
+            <LinkedinLogo class="mr-2" /><a href={linkedINLink} target="_blank">{linkedINName}</a>
         </li>
 	</ul>
 </div>
