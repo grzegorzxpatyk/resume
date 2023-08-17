@@ -19,7 +19,7 @@
 					<span>{item.timePeriod}</span>
 				</div>
 				{#if item.description}
-					<p>{item.description}</p>
+					<p>{@html item.description}</p>
 				{/if}
 			</div>
 		{/each}
