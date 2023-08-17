@@ -24,6 +24,6 @@
 			</div>
 		{/each}
 	{:else if type === 'description' && description}
-		<p>{description}</p>
+		<p class="text-justify">{description}</p>
 	{/if}
 </section>
