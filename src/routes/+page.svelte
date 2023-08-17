@@ -52,7 +52,7 @@
 			<Section
 				title="Profile"
 				type="description"
-				description="Dedicated and innovative Frontend Developer with a unique blend of skills derived from a background in architecture and urban planning. Leveraging a deep appreciation for Bauhaus and modernist design principles, I bring a fresh perspective to web development, infusing creativity and functionality into every project. Through a seamless transition from architecture to information technology, I have honed my ability to bridge the gap between design aesthetics and cutting-edge frontend development."
+				description="Dedicated and innovative Frontend Developer with a unique blend of skills derived from a background in architecture and passion for programming. Leveraging a deep appreciation for modernist design principles, I bring a fresh perspective to web development, infusing creativity and functionality into every project. My favorite aspect of web application development lies in crafting beautiful user interfaces, where I relish the opportunity to create slick designs, curate color palettes, and implement captivating animations that elevate user experience to a new level."
 			/>
 			<Section
 				title="Experience"
