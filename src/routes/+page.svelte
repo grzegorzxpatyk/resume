@@ -50,7 +50,11 @@
 					'Bootstrap',
 					'material-ui',
 					'styled-components',
-					'radix-ui'
+					'radix-ui',
+					'git',
+					'GitHub',
+					'GitLab',
+					'Jira'
 				]}
 			/>
 		</div>
