@@ -63,7 +63,7 @@
 						organisation: 'TTMS',
 						timePeriod: 'Jun 2022 - Present',
 						description:
-							'Employ modern frontend technologies such as <strong>TypeScript, React, Redux and material-ui</strong> to create user-centric and accessible websites and webapps, enhancing user engagement and satisfaction. Taking part in meetings with clients, discussing their needs and explaining possible solutions.'
+							'Employ modern frontend technologies such as <strong>TypeScript, React, Redux and material-ui</strong> to create user-centric and accessible websites and webapps, enhancing user engagement and satisfaction. Implementation of <strong>unit and visual tests using Cypress</strong>. Taking part in meetings with clients, discussing their needs and explaining possible solutions.'
 					},
 					{
 						title: 'Junior Frontend Developer',
