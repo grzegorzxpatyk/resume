@@ -44,7 +44,13 @@
 					'Next.js',
 					'Svelte',
 					'SvelteKit',
-					'Redux'
+					'Redux',
+					'Cypress',
+					'tailwindcss',
+					'Bootstrap',
+					'material-ui',
+					'styled-components',
+					'radix-ui'
 				]}
 			/>
 		</div>
