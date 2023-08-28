@@ -22,7 +22,7 @@
 		<li class="flex flex-row justify-start items-center">
 			<GithubLogo class="mr-2" /><a href={githubLink} target="_blank">{githubUsername}</a>
 		</li>
-        <li class="flex flex-row justify-start items-center">
+        <li class="flex flex-row justify-start items-center print:hidden">
             <LinkedinLogo class="mr-2" /><a href={linkedINLink} target="_blank">{linkedINName}</a>
         </li>
 	</ul>

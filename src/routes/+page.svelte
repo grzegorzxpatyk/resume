@@ -1,11 +1,8 @@
 <script>
 	import './styles.css';
 	import '../app.css';
-	import Bio from '$lib/components/bio.svelte';
 	import profile from '$lib/images/profile.jpg';
-	import Section from '$lib/components/section.svelte';
-	import Contact from '$lib/components/contact.svelte';
-	import Technologies from '$lib/components/technologies.svelte';
+	import { Bio, Section, Contact, Technologies } from '$lib';
 </script>
 
 <svelte:head>
@@ -44,7 +41,17 @@
 					'Next.js',
 					'Svelte',
 					'SvelteKit',
-					'Redux'
+					'Redux',
+					'Cypress',
+					'tailwindcss',
+					'Bootstrap',
+					'material-ui',
+					'styled-components',
+					'radix-ui',
+					'git',
+					'GitHub',
+					'GitLab',
+					'Jira'
 				]}
 			/>
 		</div>
@@ -52,7 +59,7 @@
 			<Section
 				title="Profile"
 				type="description"
-				description="Dedicated and innovative Frontend Developer with a unique blend of skills derived from a background in architecture and passion for programming. Leveraging a deep appreciation for modernist design principles, I bring a fresh perspective to web development, infusing creativity and functionality into every project. My favorite aspect of web application development lies in crafting beautiful user interfaces, where I relish the opportunity to create slick designs, curate color palettes, and implement captivating animations that elevate user experience to a new level."
+				description="Dedicated and innovative Frontend Developer with a unique blend of skills derived from a background in architecture and passion for programming. I bring a fresh perspective to web development, infusing creativity and functionality into every project. My favorite aspect of web application development lies in crafting beautiful user interfaces, where I relish the opportunity to create aesthetic designs and implement captivating animations that elevate user experience to a new level."
 			/>
 			<Section
 				title="Experience"
@@ -63,7 +70,7 @@
 						organisation: 'TTMS',
 						timePeriod: 'Jun 2022 - Present',
 						description:
-							'Employ modern frontend technologies such as <strong>TypeScript, React, Redux and material-ui</strong> to create user-centric and accessible websites and webapps, enhancing user engagement and satisfaction. Taking part in meetings with clients, discussing their needs and explaining possible solutions.'
+							'Employ modern frontend technologies such as <strong>TypeScript, React, Redux and material-ui</strong> to create user-centric and accessible websites and webapps, enhancing user engagement and satisfaction. Implementation of <strong>unit and visual tests using Cypress</strong>. Taking part in meetings with clients, discussing their needs and explaining possible solutions.'
 					},
 					{
 						title: 'Junior Frontend Developer',
