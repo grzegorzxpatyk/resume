@@ -1,11 +1,8 @@
 <script>
 	import './styles.css';
 	import '../app.css';
-	import Bio from '$lib/components/bio.svelte';
 	import profile from '$lib/images/profile.jpg';
-	import Section from '$lib/components/section.svelte';
-	import Contact from '$lib/components/contact.svelte';
-	import Technologies from '$lib/components/technologies.svelte';
+	import { Bio, Section, Contact, Technologies } from '$lib';
 </script>
 
 <svelte:head>
