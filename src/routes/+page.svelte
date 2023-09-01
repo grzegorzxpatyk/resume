@@ -11,10 +11,10 @@
 </svelte:head>
 
 <main
-	class="min-h-screen h-fit flex flex-col bg-zinc-200 dark:bg-zinc-900 p-2 sm:p-8 md:p-16 lg:p-24 print:p-0 print:m-0 print:pt-12 border-0"
+	class="min-h-screen h-fit flex flex-col bg-zinc-100 bg-opacity-70 dark:bg-gradient-to-t dark:from-dark-blue-gradient dark:to-dark-gray-gradient p-2 sm:p-8 md:p-16 lg:p-24 print:p-0 print:m-0 print:pt-12"
 >
 	<div
-		class="border rounded p-5 text-zinc-950 dark:text-zinc-300 grid grid-cols-4 print:grid-cols-6 print:border-0"
+		class="rounded p-5 text-zinc-950 dark:text-zinc-300 grid grid-cols-4 print:grid-cols-6 print:border-0"
 	>
 		<div class="border-r border-zinc-800 dark:border-zinc-400 p-6 pr-12 print:col-span-2">
 			<Bio
