@@ -70,14 +70,14 @@
 						organisation: 'TTMS',
 						timePeriod: 'Jun 2022 - Present',
 						description:
-							'Employ modern frontend technologies such as <strong>TypeScript, React, Redux and material-ui</strong> to create user-centric and accessible websites and webapps, enhancing user engagement and satisfaction. Implementation of <strong>unit and visual tests using Cypress</strong>. Taking part in meetings with clients, discussing their needs and explaining possible solutions.'
+							'Employ modern frontend technologies such as <strong>TypeScript, React, Redux and material-ui</strong> to create user-centric and accessible web applications, enhancing user engagement and satisfaction. Implementation of <strong>E2E, unit and visual tests using Cypress</strong>. Taking part in meetings with clients, discussing their needs and explaining possible solutions.'
 					},
 					{
 						title: 'Junior Frontend Developer',
 						organisation: 'ALTEN Polska',
 						timePeriod: 'Jan 2022 - May 2022',
 						description:
-							'Development of the internal applications using <strong>PHP, JavaScript and SASS</strong>. Implementation of client-side form validation, with the use of js and regular expressions. Testing API with <strong>Swagger and Postman</strong>.'
+							'Development of the internal applications using <strong>JavaScript, Sass, PHP and SQL</strong>. Implementation of client-side form validation, with the use of js and regular expressions. Testing APIs with <strong>Swagger and Postman</strong>.'
 					},
 					{
 						title: 'Wep development internship',
