@@ -2,7 +2,7 @@
 	import './styles.css';
 	import '../app.css';
 	import profile from '$lib/images/profile.jpg';
-	import { Bio, Section, Contact, Technologies } from '$lib';
+	import { Bio, Section, Contact, Technologies, ThemeSwitch } from '$lib';
 </script>
 
 <svelte:head>
@@ -109,5 +109,4 @@
 	</div>
 </main>
 
-<style>
-</style>
+<ThemeSwitch />
