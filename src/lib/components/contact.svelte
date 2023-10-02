@@ -2,6 +2,26 @@
 	import { EnvelopeClosed, Home, GithubLogo, LinkedinLogo } from 'radix-icons-svelte';
 	import { onMount } from 'svelte';
 
+	let isMediumScreen: boolean | undefined;
+
+	const markIsMedium = () => {
+			console.log(window.innerWidth);
+			if (window.innerWidth > 768 && window.innerWidth < 1350) {
+				isMediumScreen = true;
+			} else {
+				isMediumScreen = false;
+			}
+		};
+
+	onMount(() => {
+		isMediumScreen = window.innerWidth > 768 && window.innerWidth < 1350;
+		window.matchMedia('(min-width: 768px)').addEventListener('change',markIsMedium);
+		window.matchMedia('(max-width: 1350px)').addEventListener('change', markIsMedium);
+		return () => {
+			isMediumScreen = undefined;
+		}
+	});
+
 	export let email: string;
 	export let location: string;
 	export let githubUsername: string;
@@ -17,8 +37,8 @@
         <li class="flex flex-row justify-start items-center">
             <Home class="mr-2" />{location}
         </li>
-		<li class="flex flex-row justify-start items-center overflow-x-scroll no-scrollbar">
-			<EnvelopeClosed class="mr-2" /> <a href="mailto:{email}">{email}</a>
+		<li class="flex flex-row justify-start items-center">
+			<EnvelopeClosed class="mr-2" /> <a href="mailto:{email}">{isMediumScreen ? email.substring(0, email.indexOf('@')) : email}</a>
 		</li>
 		<li class="flex flex-row justify-start items-center">
 			<GithubLogo class="mr-2" /><a href={githubLink} target="_blank">{githubUsername}</a>
