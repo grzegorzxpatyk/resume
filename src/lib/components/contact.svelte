@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { EnvelopeClosed, Home, GithubLogo, LinkedinLogo } from 'radix-icons-svelte';
+	import { onMount } from 'svelte';
 
 	export let email: string;
 	export let location: string;
@@ -12,11 +13,11 @@
 <div
 	class="flex flex-col justify-start items-start pb-6 border-b border-b-zinc-800 dark:border-b-zinc-400 text-sm mt-6"
 >
-	<ul class="space-y-2.5">
+	<ul class="space-y-2.5 w-full">
         <li class="flex flex-row justify-start items-center">
             <Home class="mr-2" />{location}
         </li>
-		<li class="flex flex-row justify-start items-center">
+		<li class="flex flex-row justify-start items-center overflow-x-scroll no-scrollbar">
 			<EnvelopeClosed class="mr-2" /> <a href="mailto:{email}">{email}</a>
 		</li>
 		<li class="flex flex-row justify-start items-center">

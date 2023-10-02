@@ -11,12 +11,12 @@
 </svelte:head>
 
 <main
-	class="min-h-screen h-fit flex flex-col bg-zinc-100 bg-opacity-70 dark:bg-gradient-to-t dark:from-dark-blue-gradient dark:to-dark-gray-gradient p-2 sm:p-8 md:p-16 lg:p-24 print:p-0 print:m-0 print:pt-12"
+	class="min-h-screen h-fit flex flex-col bg-100% m-0 bg-fixed bg-no-repeat bg-zinc-100 bg-opacity-70 dark:bg-gradient-to-t dark:from-dark-blue-gradient dark:to-dark-gray-gradient sm:p-6 md:p-12 lg:p-24 print:p-0 print:m-0 print:pt-12"
 >
 	<div
-		class="rounded p-5 text-zinc-950 dark:text-zinc-300 grid grid-cols-4 print:grid-cols-6 print:border-0"
+		class="md:p-5 text-zinc-950 dark:text-zinc-300 flex flex-col justify-center items-start md:grid md:grid-cols-4 print:grid-cols-6 print:border-0"
 	>
-		<div class="border-r border-zinc-800 dark:border-zinc-400 p-6 pr-12 print:col-span-2">
+		<div class="min-h-screen h-fit md:h-fit md:border-r border-zinc-800 dark:border-zinc-400 p-6 md:pr-12 print:col-span-2">
 			<Bio
 				{profile}
 				picDescription="Grzegorz profile - square composition portrait of a brunette man wearing a choker"
@@ -55,7 +55,7 @@
 				]}
 			/>
 		</div>
-		<div class="col-span-3 print:col-span-4 ml-6 p-6">
+		<div class="md:col-span-3 print:col-span-4 md:ml-6 p-6">
 			<Section
 				title="Profile"
 				type="description"
