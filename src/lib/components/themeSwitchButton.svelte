@@ -33,7 +33,7 @@
         <Sun size={16} />
     {/if}
 </button>
-<label for="theme-{variant}-switch" class="{isLabelVisible ? 'absolute' : 'hidden'} top-16 p-2 dark:bg-zinc-300 dark:bg-opacity-50 bg-zinc-200 bg-opacity-50 rounded-md font-semibold text-sm w-full text-center">
+<label for="theme-{variant}-switch" class="{isLabelVisible ? 'block' : 'hidden'} absolute top-16 p-2 dark:bg-zinc-300 dark:bg-opacity-50 bg-zinc-200 bg-opacity-50 rounded-md font-semibold text-sm w-full text-center ">
     {#if isActive}
         OS Default
     {:else}
