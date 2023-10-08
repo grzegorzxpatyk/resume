@@ -31,7 +31,6 @@
         theme.set(localStorage?.theme);
 
         theme.subscribe((value) => {
-            console.log(value);
             localStorage.theme = value;
             switch (value) {
                 case 'dark':
@@ -50,7 +49,6 @@
         window
             .matchMedia('(prefers-color-scheme: dark)')
             .addEventListener('change', (event) => {
-                console.log(event);
                 if (localStorage.theme !== 'OSDefault') {
                     return;
                 }
