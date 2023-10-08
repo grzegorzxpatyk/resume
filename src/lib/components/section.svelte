@@ -9,7 +9,7 @@
 </script>
 
 <section class={"pb-8 mb-8" + (!isLast ? ' border-b border-b-zinc-700 dark:border-b-zinc-400': '')}>
-	<h3 class="text-2xl mb-6 font-medium">{title}</h3>
+	<h3 class="text-2xl mb-6 font-semibold">{title}</h3>
 	{#if type === 'list' && listItems}
 		{#each listItems as item}
 			<div class="mb-6">
