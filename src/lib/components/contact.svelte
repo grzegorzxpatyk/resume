@@ -5,7 +5,6 @@
 	let isMediumScreen: boolean | undefined;
 
 	const markIsMedium = () => {
-			console.log(window.innerWidth);
 			if (window.innerWidth > 768 && window.innerWidth < 1350) {
 				isMediumScreen = true;
 			} else {
