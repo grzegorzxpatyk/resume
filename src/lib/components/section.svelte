@@ -8,12 +8,12 @@
     export let isLast: boolean = false;
 </script>
 
-<section class={"pb-8 mb-8" + (!isLast ? ' border-b border-b-zinc-700 dark:border-b-zinc-400': '')}>
-	<h3 class="text-2xl mb-6 font-semibold">{title}</h3>
+<section class={(!isLast ? 'pb-8 mb-8 border-b border-b-zinc-700 dark:border-b-zinc-400': '')}>
+	<h3 class="text-2xl mb-6 font-bold">{title}</h3>
 	{#if type === 'list' && listItems}
 		{#each listItems as item}
 			<div class="mb-6">
-				<h4 class="text-lg block border-b-zinc-500 dark:border-b-zinc-800 font-medium">{item.title}</h4>
+				<h4 class="text-lg block border-b-zinc-500 dark:border-b-zinc-800 font-semibold">{item.title}</h4>
 				<div class="flex flex-row justify-between items-center text-sm mb-3">
 					<span>{item.organisation}</span>
 					<span>{item.timePeriod}</span>
