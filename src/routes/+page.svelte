@@ -11,7 +11,7 @@
 </svelte:head>
 
 <main
-	class="min-h-screen h-fit flex flex-col bg-100% m-0 bg-fixed bg-no-repeat bg-zinc-100 bg-opacity-70 dark:bg-gradient-to-t dark:from-dark-blue-gradient dark:to-dark-gray-gradient p-0 sm:p-6 md:p-12 lg:p-24 print:p-0 print:lg:p-0 print:md:p-0 print:sm:p-0 print:m-0 print:pt-12"
+	class="min-h-screen h-fit flex flex-col bg-100% m-0 bg-fixed bg-no-repeat bg-zinc-100 bg-opacity-70 dark:bg-zinc-900 dark:bg-opacity-90 p-0 sm:p-6 md:p-12 lg:p-24 print:p-0 print:lg:p-0 print:md:p-0 print:sm:p-0 print:m-0 print:pt-12"
 >
 	<div
 		class="sm:p-5 print:p-0 text-zinc-950 dark:text-zinc-300 flex flex-col justify-center items-start md:grid md:grid-cols-4 print:grid print:grid-cols-6 print:md:grid-cols-6"
