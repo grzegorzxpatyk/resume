@@ -85,7 +85,7 @@
 </svelte:head>
 
 <div
-    class="fixed top-4 right-4 p-2 hidden sm:grid grid-cols-2 gap-2 bg-zinc-300 dark:bg-zinc-500 bg-opacity-30 rounded-md print:hidden print:sm:hidden"
+    class="fixed top-4 right-4 p-2 hidden sm:grid grid-cols-2 gap-2 bg-zinc-300 dark:bg-zinc-500 bg-opacity-30 dark:bg-opacity-30 rounded-md print:hidden print:sm:hidden"
 >
     <ThemeSwitchButton
         variant="light"
