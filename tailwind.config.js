@@ -9,6 +9,15 @@ export default {
       },
       backgroundSize: {
         '100%': '100% 100%'
+      },
+      animation: {
+        'flip': 'flip 1s ease-in-out 1'
+      },
+      keyframes: {
+        flip: {
+          '0%': { transform: 'rotate3d(0)'},
+          '100%': { transform: 'rotate3d(0, 1, 0, 1turn)'}
+        } 
       }
     },
   },
