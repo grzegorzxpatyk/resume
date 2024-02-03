@@ -15,7 +15,13 @@
 			<div class="mb-6">
 				<h4 class="text-lg block border-b-zinc-500 dark:border-b-zinc-800 font-semibold">{item.title}</h4>
 				<div class="flex flex-row justify-between items-center text-sm mb-3">
-					<span>{item.organisation}</span>
+					<span>
+						{#if item.organisationWebsite && new URL(item.organisationWebsite)}
+							<a href={item.organisationWebsite} target="_blank">{item.organisation}</a>
+						{:else}
+							{item.organisation}
+						{/if}
+					</span>
 					<span>{item.timePeriod}</span>
 				</div>
 				{#if item.description}
