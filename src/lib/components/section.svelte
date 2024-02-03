@@ -2,7 +2,7 @@
 	export let title: string;
 	export let type: 'list' | 'description';
 	export let listItems:
-		| Array<{ title: string; organisation: string; timePeriod: string; description?: string }>
+		| Array<listItem>
 		| undefined = undefined;
 	export let description: string | undefined = undefined;
     export let isLast: boolean = false;
