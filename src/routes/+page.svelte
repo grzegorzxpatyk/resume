@@ -68,6 +68,7 @@
 					{
 						title: 'Junior Frontend Developer',
 						organisation: 'TTMS',
+						organisationWebsite: 'https://ttms.com/',
 						timePeriod: 'Jun 2022 - Present',
 						description:
 							'Employ modern frontend technologies such as <strong>TypeScript, React, Redux and material-ui</strong> to create user-centric and accessible web applications, enhancing user engagement and satisfaction. Implementation of <strong>E2E, unit and visual tests using Cypress</strong>. Taking part in meetings with clients, discussing their needs and explaining possible solutions.'
@@ -75,6 +76,7 @@
 					{
 						title: 'Junior Frontend Developer',
 						organisation: 'ALTEN Polska',
+						organisationWebsite: 'https://www.altenpolska.pl/',
 						timePeriod: 'Jan 2022 - May 2022',
 						description:
 							'Development of the internal applications using <strong>JavaScript, Sass, PHP and SQL</strong>. Implementation of client-side form validation, with the use of js and regular expressions. Testing APIs with <strong>Swagger and Postman</strong>.'
@@ -82,6 +84,7 @@
 					{
 						title: 'Wep development internship',
 						organisation: 'beeanco',
+						organisationWebsite: 'https://www.beeanco.com/',
 						timePeriod: 'Jun 2021 - Dec 2021',
 						description:
 							'Collaborate with cross-functional teams to transform design concepts into responsive and visually appealing web interfaces using <strong>Svelte and bulma</strong>. Working on the verge of back-end and front-end with <strong>WordPress as headless CMS</strong>. Integrate animations and interactive elements to improve user interaction and elevate website aesthetics.'
