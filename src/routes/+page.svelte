@@ -48,6 +48,8 @@
 					'material-ui',
 					'styled-components',
 					'radix-ui',
+					'REST API',
+					'GraphQL',
 					'git',
 					'GitHub',
 					'GitLab',
