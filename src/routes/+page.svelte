@@ -48,6 +48,8 @@
 					'material-ui',
 					'styled-components',
 					'radix-ui',
+					'REST API',
+					'GraphQL',
 					'git',
 					'GitHub',
 					'GitLab',
@@ -59,7 +61,7 @@
 			<Section
 				title="Profile"
 				type="description"
-				description="Dedicated and innovative Frontend Developer with a unique blend of skills derived from a background in architecture and passion for programming. I bring a fresh perspective to web development, infusing creativity and functionality into every project. My favorite aspect of web application development lies in crafting beautiful user interfaces, where I relish the opportunity to create aesthetic designs and implement captivating animations that elevate user experience to a new level."
+				description="Dedicated and innovative Frontend Developer with a unique blend of skills derived from a background in architecture and passion for programming. Divergent thinker, infusing creativity and functionality into every project. My favorite aspect of web application development lies in crafting beautiful user interfaces, where I relish the opportunity to create aesthetic designs and implement captivating animations that elevate user experience to a new level."
 			/>
 			<Section
 				title="Experience"
@@ -71,7 +73,7 @@
 						organisationWebsite: 'https://ttms.com/',
 						timePeriod: 'Jun 2022 - Present',
 						description:
-							'Employ modern frontend technologies such as <strong>TypeScript, React, Redux and material-ui</strong> to create user-centric and accessible web applications, enhancing user engagement and satisfaction. Implementation of <strong>E2E, unit and visual tests using Cypress</strong>. Taking part in meetings with clients, discussing their needs and explaining possible solutions.'
+							'Employ modern frontend technologies such as <strong>React, Redux and material-ui</strong> to create user-centric and accessible web interfaces, enhancing user engagement and satisfaction. Usage of <strong>TypeScript</strong> to build type-safe and scalable applications. Implementation of <strong>E2E, unit and visual tests using Cypress</strong>. Taking part in meetings with clients, discussing their needs, business logic and possible solutions.'
 					},
 					{
 						title: 'Junior Frontend Developer',
@@ -79,7 +81,7 @@
 						organisationWebsite: 'https://www.altenpolska.pl/',
 						timePeriod: 'Jan 2022 - May 2022',
 						description:
-							'Development of the internal applications using <strong>JavaScript, Sass, PHP and SQL</strong>. Implementation of client-side form validation, with the use of js and regular expressions. Testing APIs with <strong>Swagger and Postman</strong>.'
+							'Development of the internal applications using <strong>JavaScript, Sass, PHP and SQL</strong>. Implementation of client-side form validation, with the use of js and regular expressions. Testing <strong>RESTful APIs</strong> with <strong>Swagger and Postman</strong>.'
 					},
 					{
 						title: 'Wep development internship',
@@ -87,7 +89,7 @@
 						organisationWebsite: 'https://www.beeanco.com/',
 						timePeriod: 'Jun 2021 - Dec 2021',
 						description:
-							'Collaborate with cross-functional teams to transform design concepts into responsive and visually appealing web interfaces using <strong>Svelte and bulma</strong>. Working on the verge of back-end and front-end with <strong>WordPress as headless CMS</strong>. Integrate animations and interactive elements to improve user interaction and elevate website aesthetics.'
+							'Collaborate with cross-functional teams to transform design concepts into responsive and visually appealing web interfaces using <strong>Svelte and bulma</strong>. Working on the verge of back-end and front-end with <strong>WordPress as headless CMS</strong> and <strong>GraphQL</strong>. Integrate animations and interactive elements to improve user interaction and elevate website aesthetics.'
 					}
 				]}
 			/>
