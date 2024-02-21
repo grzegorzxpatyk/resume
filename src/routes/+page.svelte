@@ -84,7 +84,7 @@
 							'Development of the internal applications using <strong>JavaScript, Sass, PHP and SQL</strong>. Implementation of client-side form validation, with the use of js and regular expressions. Testing <strong>RESTful APIs</strong> with <strong>Swagger and Postman</strong>.'
 					},
 					{
-						title: 'Wep development internship',
+						title: 'Web development intern',
 						organisation: 'beeanco',
 						organisationWebsite: 'https://www.beeanco.com/',
 						timePeriod: 'Jun 2021 - Dec 2021',
