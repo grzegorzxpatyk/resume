@@ -73,7 +73,7 @@
 						organisationWebsite: 'https://ttms.com/',
 						timePeriod: 'Jun 2022 - Present',
 						description:
-							'Utilize contemporary frontend technologies such as <strong>React, Redux and TailwindCSS</strong> to create user-centric and accessible web interfaces, enhancing user engagement and satisfaction. Usage of <strong>TypeScript</strong> to build type-safe and scalable applications. Implementation of <strong>E2E, unit and visual tests using Cypress</strong>. Taking part in meetings with clients, discussing their needs, business logic and possible solutions.'
+							'Utilize contemporary frontend technologies such as <strong>React, Redux toolkit and TailwindCSS</strong> to create user-centric and accessible web interfaces, enhancing user engagement and satisfaction. Usage of <strong>TypeScript</strong> to build type-safe and scalable applications. Implementation of <strong>E2E visual tests using Cypress</strong>. Taking part in meetings with clients, discussing their needs, business logic and possible solutions.'
 					},
 					{
 						title: 'Junior Frontend Developer',
