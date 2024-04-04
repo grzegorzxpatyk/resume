@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { EnvelopeClosed, Home, GithubLogo, LinkedinLogo } from 'radix-icons-svelte';
+	import { EnvelopeClosed, Home, GithubLogo, LinkedinLogo, LinkBreak2 } from 'radix-icons-svelte';
 	import { onMount } from 'svelte';
 
 	let isMediumScreen: boolean | undefined;
@@ -27,6 +27,7 @@
 	export let githubLink: string;
     export let linkedINName: string;
     export let linkedINLink: string;
+	export let website: string;
 </script>
 
 <div
@@ -36,6 +37,9 @@
         <li class="flex flex-row justify-start items-center">
             <Home class="mr-2" />{location}
         </li>
+		<li class="flex flex-row justify-start items-center">
+			<LinkBreak2 class="mr-2" /> <a href={website} target="_blank">{website.split('//')[1]}</a>
+		</li>
 		<li class="flex flex-row justify-start items-center">
 			<EnvelopeClosed class="mr-2" /> <a href="mailto:{email}">{isMediumScreen ? email.substring(0, email.indexOf('@')) : email}</a>
 		</li>
