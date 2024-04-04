@@ -30,6 +30,7 @@
 				githubLink="https://github.com/grzegorzxpatyk"
 				linkedINName="Grzegorz Patyk"
 				linkedINLink="https://www.linkedin.com/in/grzegorz-patyk"
+				website="https://gpatyk.dev"
 			/>
 			<Technologies
 				technologies={[
