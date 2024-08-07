@@ -52,9 +52,11 @@
 					'material-ui',
 					'REST API',
 					'GraphQL',
+					'Strapi',
 					'git',
 					'GitHub',
 					'GitLab',
+					'Vercel',
 					'Jira'
 				]}
 			/>
