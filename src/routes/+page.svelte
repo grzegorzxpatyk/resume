@@ -70,6 +70,14 @@
 				type="list"
 				listItems={[
 					{
+						title: 'Frontend Developer',
+						organisation: 'BMO',
+						organisationWebsite: 'https://www.bmo.com/en-ca/main/personal/',
+						timePeriod: 'Jul 2024 - Present',
+						description: 
+							'Development of landing pages and applications using <strong>Next.js, React, TypeScript & styled-components</strong>. <em>NDA</em>'
+					},
+					{
 						title: 'Junior Frontend Developer',
 						organisation: 'TTMS',
 						organisationWebsite: 'https://ttms.com/',
