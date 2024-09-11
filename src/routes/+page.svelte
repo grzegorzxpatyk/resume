@@ -44,6 +44,7 @@
 					'Svelte',
 					'SvelteKit',
 					'Redux',
+					'Jest',
 					'Playwright',
 					'Cypress',
 					'Bootstrap',
@@ -77,7 +78,7 @@
 						organisationWebsite: 'https://www.bmo.com/en-ca/main/personal/',
 						timePeriod: 'Jul 2024 - Present',
 						description: 
-							'Development of landing pages and applications using <strong>Next.js, React, TypeScript & styled-components</strong>. <em>NDA</em>'
+							'Development of landing pages and applications using <strong>Next.js, React, TypeScript, styled-components & Jest</strong>. <em>NDA</em>'
 					},
 					{
 						title: 'Junior Frontend Developer',
